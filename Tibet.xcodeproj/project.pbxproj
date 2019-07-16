@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C26906D22DD7D77001AB783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26906C22DD7D77001AB783 /* AppDelegate.swift */; };
+		6C26906F22DD7D77001AB783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26906E22DD7D77001AB783 /* ViewController.swift */; };
+		6C26907222DD7D77001AB783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907022DD7D77001AB783 /* Main.storyboard */; };
+		6C26907522DD7D77001AB783 /* Tibet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C26907322DD7D77001AB783 /* Tibet.xcdatamodeld */; };
+		6C26907722DD7D78001AB783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907622DD7D78001AB783 /* Assets.xcassets */; };
+		6C26907A22DD7D78001AB783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */; };
+		6C26908522DD7D78001AB783 /* TibetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908422DD7D78001AB783 /* TibetTests.swift */; };
+		6C26909022DD7D79001AB783 /* TibetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908F22DD7D79001AB783 /* TibetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C26908122DD7D78001AB783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C26906122DD7D77001AB783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C26906822DD7D77001AB783;
+			remoteInfo = Tibet;
+		};
+		6C26908C22DD7D79001AB783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C26906122DD7D77001AB783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C26906822DD7D77001AB783;
+			remoteInfo = Tibet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C26906922DD7D77001AB783 /* Tibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26906C22DD7D77001AB783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C26906E22DD7D77001AB783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C26907122DD7D77001AB783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C26907422DD7D77001AB783 /* Tibet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tibet.xcdatamodel; sourceTree = "<group>"; };
+		6C26907622DD7D78001AB783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C26907922DD7D78001AB783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C26907B22DD7D78001AB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C26908022DD7D78001AB783 /* TibetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26908422DD7D78001AB783 /* TibetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibetTests.swift; sourceTree = "<group>"; };
+		6C26908622DD7D78001AB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C26908B22DD7D79001AB783 /* TibetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26908F22DD7D79001AB783 /* TibetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibetUITests.swift; sourceTree = "<group>"; };
+		6C26909122DD7D79001AB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C26906622DD7D77001AB783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26907D22DD7D78001AB783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26908822DD7D79001AB783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C26906022DD7D77001AB783 = {
+			isa = PBXGroup;
+			children = (
+				6C26906B22DD7D77001AB783 /* Tibet */,
+				6C26908322DD7D78001AB783 /* TibetTests */,
+				6C26908E22DD7D79001AB783 /* TibetUITests */,
+				6C26906A22DD7D77001AB783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C26906A22DD7D77001AB783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C26906922DD7D77001AB783 /* Tibet.app */,
+				6C26908022DD7D78001AB783 /* TibetTests.xctest */,
+				6C26908B22DD7D79001AB783 /* TibetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C26906B22DD7D77001AB783 /* Tibet */ = {
+			isa = PBXGroup;
+			children = (
+				6C26906C22DD7D77001AB783 /* AppDelegate.swift */,
+				6C26906E22DD7D77001AB783 /* ViewController.swift */,
+				6C26907022DD7D77001AB783 /* Main.storyboard */,
+				6C26907622DD7D78001AB783 /* Assets.xcassets */,
+				6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */,
+				6C26907B22DD7D78001AB783 /* Info.plist */,
+				6C26907322DD7D77001AB783 /* Tibet.xcdatamodeld */,
+			);
+			path = Tibet;
+			sourceTree = "<group>";
+		};
+		6C26908322DD7D78001AB783 /* TibetTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C26908422DD7D78001AB783 /* TibetTests.swift */,
+				6C26908622DD7D78001AB783 /* Info.plist */,
+			);
+			path = TibetTests;
+			sourceTree = "<group>";
+		};
+		6C26908E22DD7D79001AB783 /* TibetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C26908F22DD7D79001AB783 /* TibetUITests.swift */,
+				6C26909122DD7D79001AB783 /* Info.plist */,
+			);
+			path = TibetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C26906822DD7D77001AB783 /* Tibet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26909422DD7D79001AB783 /* Build configuration list for PBXNativeTarget "Tibet" */;
+			buildPhases = (
+				6C26906522DD7D77001AB783 /* Sources */,
+				6C26906622DD7D77001AB783 /* Frameworks */,
+				6C26906722DD7D77001AB783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tibet;
+			productName = Tibet;
+			productReference = 6C26906922DD7D77001AB783 /* Tibet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C26907F22DD7D78001AB783 /* TibetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26909722DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetTests" */;
+			buildPhases = (
+				6C26907C22DD7D78001AB783 /* Sources */,
+				6C26907D22DD7D78001AB783 /* Frameworks */,
+				6C26907E22DD7D78001AB783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C26908222DD7D78001AB783 /* PBXTargetDependency */,
+			);
+			name = TibetTests;
+			productName = TibetTests;
+			productReference = 6C26908022DD7D78001AB783 /* TibetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C26908A22DD7D79001AB783 /* TibetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26909A22DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetUITests" */;
+			buildPhases = (
+				6C26908722DD7D79001AB783 /* Sources */,
+				6C26908822DD7D79001AB783 /* Frameworks */,
+				6C26908922DD7D79001AB783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C26908D22DD7D79001AB783 /* PBXTargetDependency */,
+			);
+			name = TibetUITests;
+			productName = TibetUITests;
+			productReference = 6C26908B22DD7D79001AB783 /* TibetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C26906122DD7D77001AB783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zchao;
+				TargetAttributes = {
+					6C26906822DD7D77001AB783 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6C26907F22DD7D78001AB783 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6C26906822DD7D77001AB783;
+					};
+					6C26908A22DD7D79001AB783 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6C26906822DD7D77001AB783;
+					};
+				};
+			};
+			buildConfigurationList = 6C26906422DD7D77001AB783 /* Build configuration list for PBXProject "Tibet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C26906022DD7D77001AB783;
+			productRefGroup = 6C26906A22DD7D77001AB783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C26906822DD7D77001AB783 /* Tibet */,
+				6C26907F22DD7D78001AB783 /* TibetTests */,
+				6C26908A22DD7D79001AB783 /* TibetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C26906722DD7D77001AB783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26907A22DD7D78001AB783 /* LaunchScreen.storyboard in Resources */,
+				6C26907722DD7D78001AB783 /* Assets.xcassets in Resources */,
+				6C26907222DD7D77001AB783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26907E22DD7D78001AB783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26908922DD7D79001AB783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C26906522DD7D77001AB783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26906F22DD7D77001AB783 /* ViewController.swift in Sources */,
+				6C26906D22DD7D77001AB783 /* AppDelegate.swift in Sources */,
+				6C26907522DD7D77001AB783 /* Tibet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26907C22DD7D78001AB783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26908522DD7D78001AB783 /* TibetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26908722DD7D79001AB783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26909022DD7D79001AB783 /* TibetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C26908222DD7D78001AB783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C26906822DD7D77001AB783 /* Tibet */;
+			targetProxy = 6C26908122DD7D78001AB783 /* PBXContainerItemProxy */;
+		};
+		6C26908D22DD7D79001AB783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C26906822DD7D77001AB783 /* Tibet */;
+			targetProxy = 6C26908C22DD7D79001AB783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C26907022DD7D77001AB783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C26907122DD7D77001AB783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C26907922DD7D78001AB783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C26909222DD7D79001AB783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C26909322DD7D79001AB783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C26909522DD7D79001AB783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tibet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.Tibet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C26909622DD7D79001AB783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tibet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.Tibet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C26909822DD7D79001AB783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TibetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tibet.app/Tibet";
+			};
+			name = Debug;
+		};
+		6C26909922DD7D79001AB783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TibetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tibet.app/Tibet";
+			};
+			name = Release;
+		};
+		6C26909B22DD7D79001AB783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TibetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tibet;
+			};
+			name = Debug;
+		};
+		6C26909C22DD7D79001AB783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TibetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tibet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C26906422DD7D77001AB783 /* Build configuration list for PBXProject "Tibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26909222DD7D79001AB783 /* Debug */,
+				6C26909322DD7D79001AB783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26909422DD7D79001AB783 /* Build configuration list for PBXNativeTarget "Tibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26909522DD7D79001AB783 /* Debug */,
+				6C26909622DD7D79001AB783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26909722DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26909822DD7D79001AB783 /* Debug */,
+				6C26909922DD7D79001AB783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26909A22DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26909B22DD7D79001AB783 /* Debug */,
+				6C26909C22DD7D79001AB783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C26907322DD7D77001AB783 /* Tibet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C26907422DD7D77001AB783 /* Tibet.xcdatamodel */,
+			);
+			currentVersion = 6C26907422DD7D77001AB783 /* Tibet.xcdatamodel */;
+			path = Tibet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C26906122DD7D77001AB783 /* Project object */;
+}
