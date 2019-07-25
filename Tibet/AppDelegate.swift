@@ -3,7 +3,7 @@
 //  Tibet
 //
 //  Created by zchao on 2019/7/16.
-//  Copyright © 2019 zchao. All rights reserved.
+//  Copyright © 2019 Leyukeji. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let naviController = UINavigationController.init(rootViewController: WkwebViewController())
+        naviController.setNavigationBarHidden(true, animated: true)
+        self.window?.rootViewController = naviController
+
         return true
     }
 

@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59A0E6324F1D66C0894DFFEE /* Pods_TibetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837E3CEAE53901AB4B72054E /* Pods_TibetTests.framework */; };
+		6C12AAD522DEB50B00D3B6F5 /* WkwebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AAD422DEB50B00D3B6F5 /* WkwebViewController.swift */; };
+		6C12AAD722DEB7D900D3B6F5 /* ZCUpdateAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AAD622DEB7D900D3B6F5 /* ZCUpdateAlert.swift */; };
+		6C12AAD922DEBAF000D3B6F5 /* UpdateVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AAD822DEBAF000D3B6F5 /* UpdateVersionModel.swift */; };
+		6C12AADD22DEC51900D3B6F5 /* SystemHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AADC22DEC51900D3B6F5 /* SystemHeader.swift */; };
+		6C12AAE122DEC73900D3B6F5 /* UIColor+WUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AAE022DEC73900D3B6F5 /* UIColor+WUIKit.swift */; };
 		6C26906D22DD7D77001AB783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26906C22DD7D77001AB783 /* AppDelegate.swift */; };
-		6C26906F22DD7D77001AB783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26906E22DD7D77001AB783 /* ViewController.swift */; };
 		6C26907222DD7D77001AB783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907022DD7D77001AB783 /* Main.storyboard */; };
 		6C26907522DD7D77001AB783 /* Tibet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C26907322DD7D77001AB783 /* Tibet.xcdatamodeld */; };
 		6C26907722DD7D78001AB783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907622DD7D78001AB783 /* Assets.xcassets */; };
 		6C26907A22DD7D78001AB783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */; };
 		6C26908522DD7D78001AB783 /* TibetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908422DD7D78001AB783 /* TibetTests.swift */; };
 		6C26909022DD7D79001AB783 /* TibetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908F22DD7D79001AB783 /* TibetUITests.swift */; };
+		6CB4B81822E19C68003A1257 /* InterfaceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */; };
+		E0C4DAF7396C5B7D824915C2 /* Pods_Tibet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB5B26C90EC31F41CBBF50 /* Pods_Tibet.framework */; };
+		FC3E1A694869137263D25559 /* Pods_TibetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997826BA6454356F2608A0D3 /* Pods_TibetUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361B9137334EA3D343CCBD65 /* Pods-Tibet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tibet.release.xcconfig"; path = "Target Support Files/Pods-Tibet/Pods-Tibet.release.xcconfig"; sourceTree = "<group>"; };
+		51DAE35470D022C083DB1C83 /* Pods-TibetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TibetTests.debug.xcconfig"; path = "Target Support Files/Pods-TibetTests/Pods-TibetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60E22BE9A5B7C286B1DF7C71 /* Pods-TibetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TibetTests.release.xcconfig"; path = "Target Support Files/Pods-TibetTests/Pods-TibetTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C12AAD422DEB50B00D3B6F5 /* WkwebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WkwebViewController.swift; sourceTree = "<group>"; };
+		6C12AAD622DEB7D900D3B6F5 /* ZCUpdateAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCUpdateAlert.swift; sourceTree = "<group>"; };
+		6C12AAD822DEBAF000D3B6F5 /* UpdateVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateVersionModel.swift; sourceTree = "<group>"; };
+		6C12AADC22DEC51900D3B6F5 /* SystemHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemHeader.swift; sourceTree = "<group>"; };
+		6C12AAE022DEC73900D3B6F5 /* UIColor+WUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+WUIKit.swift"; sourceTree = "<group>"; };
 		6C26906922DD7D77001AB783 /* Tibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C26906C22DD7D77001AB783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C26906E22DD7D77001AB783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C26907122DD7D77001AB783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C26907422DD7D77001AB783 /* Tibet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tibet.xcdatamodel; sourceTree = "<group>"; };
 		6C26907622DD7D78001AB783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,13 @@
 		6C26908B22DD7D79001AB783 /* TibetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C26908F22DD7D79001AB783 /* TibetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibetUITests.swift; sourceTree = "<group>"; };
 		6C26909122DD7D79001AB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceHeader.swift; sourceTree = "<group>"; };
+		837E3CEAE53901AB4B72054E /* Pods_TibetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TibetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997826BA6454356F2608A0D3 /* Pods_TibetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TibetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55CB77BAAA629D4794A4110 /* Pods-TibetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TibetUITests.release.xcconfig"; path = "Target Support Files/Pods-TibetUITests/Pods-TibetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FB5B26C90EC31F41CBBF50 /* Pods_Tibet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tibet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86E6211B1265CD87CEB12DA /* Pods-TibetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TibetUITests.debug.xcconfig"; path = "Target Support Files/Pods-TibetUITests/Pods-TibetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8CBC331A812B060D52683F5 /* Pods-Tibet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tibet.debug.xcconfig"; path = "Target Support Files/Pods-Tibet/Pods-Tibet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C4DAF7396C5B7D824915C2 /* Pods_Tibet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A0E6324F1D66C0894DFFEE /* Pods_TibetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3E1A694869137263D25559 /* Pods_TibetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C940474F83939A45A273AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB5B26C90EC31F41CBBF50 /* Pods_Tibet.framework */,
+				837E3CEAE53901AB4B72054E /* Pods_TibetTests.framework */,
+				997826BA6454356F2608A0D3 /* Pods_TibetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C0AAD4722E2CF8500DAEB3F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				6C12AADC22DEC51900D3B6F5 /* SystemHeader.swift */,
+				6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 		6C26906022DD7D77001AB783 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				6C26908322DD7D78001AB783 /* TibetTests */,
 				6C26908E22DD7D79001AB783 /* TibetUITests */,
 				6C26906A22DD7D77001AB783 /* Products */,
+				F86806071B898FECE5A58D3F /* Pods */,
+				02C940474F83939A45A273AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				6C26906C22DD7D77001AB783 /* AppDelegate.swift */,
-				6C26906E22DD7D77001AB783 /* ViewController.swift */,
+				6C12AAD422DEB50B00D3B6F5 /* WkwebViewController.swift */,
+				6C12AAD622DEB7D900D3B6F5 /* ZCUpdateAlert.swift */,
+				6C12AAD822DEBAF000D3B6F5 /* UpdateVersionModel.swift */,
+				6C12AAE022DEC73900D3B6F5 /* UIColor+WUIKit.swift */,
+				6C0AAD4722E2CF8500DAEB3F /* Macro */,
 				6C26907022DD7D77001AB783 /* Main.storyboard */,
 				6C26907622DD7D78001AB783 /* Assets.xcassets */,
 				6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */,
@@ -128,6 +178,19 @@
 			path = TibetUITests;
 			sourceTree = "<group>";
 		};
+		F86806071B898FECE5A58D3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8CBC331A812B060D52683F5 /* Pods-Tibet.debug.xcconfig */,
+				361B9137334EA3D343CCBD65 /* Pods-Tibet.release.xcconfig */,
+				51DAE35470D022C083DB1C83 /* Pods-TibetTests.debug.xcconfig */,
+				60E22BE9A5B7C286B1DF7C71 /* Pods-TibetTests.release.xcconfig */,
+				E86E6211B1265CD87CEB12DA /* Pods-TibetUITests.debug.xcconfig */,
+				A55CB77BAAA629D4794A4110 /* Pods-TibetUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C26909422DD7D79001AB783 /* Build configuration list for PBXNativeTarget "Tibet" */;
 			buildPhases = (
+				090F972CD3C72D32CFB64233 /* [CP] Check Pods Manifest.lock */,
 				6C26906522DD7D77001AB783 /* Sources */,
 				6C26906622DD7D77001AB783 /* Frameworks */,
 				6C26906722DD7D77001AB783 /* Resources */,
+				CAC3278E3AFD0B41032AF268 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C26909722DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetTests" */;
 			buildPhases = (
+				7456A5CFBBB81A45C05E07A8 /* [CP] Check Pods Manifest.lock */,
 				6C26907C22DD7D78001AB783 /* Sources */,
 				6C26907D22DD7D78001AB783 /* Frameworks */,
 				6C26907E22DD7D78001AB783 /* Resources */,
@@ -170,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C26909A22DD7D79001AB783 /* Build configuration list for PBXNativeTarget "TibetUITests" */;
 			buildPhases = (
+				6719BD3A6EDE92E9648CEF34 /* [CP] Check Pods Manifest.lock */,
 				6C26908722DD7D79001AB783 /* Sources */,
 				6C26908822DD7D79001AB783 /* Frameworks */,
 				6C26908922DD7D79001AB783 /* Resources */,
@@ -192,7 +259,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = zchao;
+				ORGANIZATIONNAME = Leyukeji;
 				TargetAttributes = {
 					6C26906822DD7D77001AB783 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -254,14 +321,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		090F972CD3C72D32CFB64233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tibet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6719BD3A6EDE92E9648CEF34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TibetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7456A5CFBBB81A45C05E07A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TibetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC3278E3AFD0B41032AF268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tibet/Pods-Tibet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tibet/Pods-Tibet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C26906522DD7D77001AB783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C26906F22DD7D77001AB783 /* ViewController.swift in Sources */,
+				6CB4B81822E19C68003A1257 /* InterfaceHeader.swift in Sources */,
+				6C12AAD722DEB7D900D3B6F5 /* ZCUpdateAlert.swift in Sources */,
 				6C26906D22DD7D77001AB783 /* AppDelegate.swift in Sources */,
 				6C26907522DD7D77001AB783 /* Tibet.xcdatamodeld in Sources */,
+				6C12AAE122DEC73900D3B6F5 /* UIColor+WUIKit.swift in Sources */,
+				6C12AADD22DEC51900D3B6F5 /* SystemHeader.swift in Sources */,
+				6C12AAD522DEB50B00D3B6F5 /* WkwebViewController.swift in Sources */,
+				6C12AAD922DEBAF000D3B6F5 /* UpdateVersionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,40 +601,49 @@
 		};
 		6C26909522DD7D79001AB783 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CBC331A812B060D52683F5 /* Pods-Tibet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYVC4FRF5U;
 				INFOPLIST_FILE = Tibet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.Tibet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengchao.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6C26909622DD7D79001AB783 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361B9137334EA3D343CCBD65 /* Pods-Tibet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYVC4FRF5U;
 				INFOPLIST_FILE = Tibet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.Tibet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengchao.testProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		6C26909822DD7D79001AB783 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DAE35470D022C083DB1C83 /* Pods-TibetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +664,7 @@
 		};
 		6C26909922DD7D79001AB783 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E22BE9A5B7C286B1DF7C71 /* Pods-TibetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +685,7 @@
 		};
 		6C26909B22DD7D79001AB783 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86E6211B1265CD87CEB12DA /* Pods-TibetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +705,7 @@
 		};
 		6C26909C22DD7D79001AB783 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55CB77BAAA629D4794A4110 /* Pods-TibetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
