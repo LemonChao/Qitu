@@ -20,6 +20,9 @@
 		6C26907A22DD7D78001AB783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26907822DD7D78001AB783 /* LaunchScreen.storyboard */; };
 		6C26908522DD7D78001AB783 /* TibetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908422DD7D78001AB783 /* TibetTests.swift */; };
 		6C26909022DD7D79001AB783 /* TibetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26908F22DD7D79001AB783 /* TibetUITests.swift */; };
+		6C416A7B232F6DEB00959F91 /* ZCMessageHandlerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C416A7A232F6DEB00959F91 /* ZCMessageHandlerTool.swift */; };
+		6C416A82232F85ED00959F91 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C416A81232F85ED00959F91 /* MBProgressHUD.m */; };
+		6C416A85232F860800959F91 /* MBProgressHUD+ZChao.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C416A84232F860800959F91 /* MBProgressHUD+ZChao.m */; };
 		6CB4B81822E19C68003A1257 /* InterfaceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */; };
 		E0C4DAF7396C5B7D824915C2 /* Pods_Tibet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB5B26C90EC31F41CBBF50 /* Pods_Tibet.framework */; };
 		FC3E1A694869137263D25559 /* Pods_TibetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997826BA6454356F2608A0D3 /* Pods_TibetUITests.framework */; };
@@ -64,6 +67,12 @@
 		6C26908B22DD7D79001AB783 /* TibetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TibetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C26908F22DD7D79001AB783 /* TibetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TibetUITests.swift; sourceTree = "<group>"; };
 		6C26909122DD7D79001AB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C416A7A232F6DEB00959F91 /* ZCMessageHandlerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCMessageHandlerTool.swift; sourceTree = "<group>"; };
+		6C416A7F232F85EC00959F91 /* Tibet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tibet-Bridging-Header.h"; sourceTree = "<group>"; };
+		6C416A80232F85ED00959F91 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6C416A81232F85ED00959F91 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6C416A83232F860800959F91 /* MBProgressHUD+ZChao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZChao.h"; sourceTree = "<group>"; };
+		6C416A84232F860800959F91 /* MBProgressHUD+ZChao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZChao.m"; sourceTree = "<group>"; };
 		6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceHeader.swift; sourceTree = "<group>"; };
 		837E3CEAE53901AB4B72054E /* Pods_TibetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TibetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		997826BA6454356F2608A0D3 /* Pods_TibetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TibetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +123,7 @@
 		6C0AAD4722E2CF8500DAEB3F /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				6C416A7F232F85EC00959F91 /* Tibet-Bridging-Header.h */,
 				6C12AADC22DEC51900D3B6F5 /* SystemHeader.swift */,
 				6CB4B81722E19C68003A1257 /* InterfaceHeader.swift */,
 			);
@@ -145,8 +155,11 @@
 		6C26906B22DD7D77001AB783 /* Tibet */ = {
 			isa = PBXGroup;
 			children = (
+				6C416A7E232F859F00959F91 /* Toos(项目使用) */,
+				6C416A7D232F858600959F91 /* Vender */,
 				6C26906C22DD7D77001AB783 /* AppDelegate.swift */,
 				6C12AAD422DEB50B00D3B6F5 /* WkwebViewController.swift */,
+				6C416A7A232F6DEB00959F91 /* ZCMessageHandlerTool.swift */,
 				6C12AAD622DEB7D900D3B6F5 /* ZCUpdateAlert.swift */,
 				6C12AAD822DEBAF000D3B6F5 /* UpdateVersionModel.swift */,
 				6C12AAE022DEC73900D3B6F5 /* UIColor+WUIKit.swift */,
@@ -176,6 +189,24 @@
 				6C26909122DD7D79001AB783 /* Info.plist */,
 			);
 			path = TibetUITests;
+			sourceTree = "<group>";
+		};
+		6C416A7D232F858600959F91 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				6C416A80232F85ED00959F91 /* MBProgressHUD.h */,
+				6C416A81232F85ED00959F91 /* MBProgressHUD.m */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		6C416A7E232F859F00959F91 /* Toos(项目使用) */ = {
+			isa = PBXGroup;
+			children = (
+				6C416A83232F860800959F91 /* MBProgressHUD+ZChao.h */,
+				6C416A84232F860800959F91 /* MBProgressHUD+ZChao.m */,
+			);
+			path = "Toos(项目使用)";
 			sourceTree = "<group>";
 		};
 		F86806071B898FECE5A58D3F /* Pods */ = {
@@ -263,6 +294,7 @@
 				TargetAttributes = {
 					6C26906822DD7D77001AB783 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					6C26907F22DD7D78001AB783 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -427,8 +459,11 @@
 				6C26907522DD7D77001AB783 /* Tibet.xcdatamodeld in Sources */,
 				6C12AAE122DEC73900D3B6F5 /* UIColor+WUIKit.swift in Sources */,
 				6C12AADD22DEC51900D3B6F5 /* SystemHeader.swift in Sources */,
+				6C416A85232F860800959F91 /* MBProgressHUD+ZChao.m in Sources */,
 				6C12AAD522DEB50B00D3B6F5 /* WkwebViewController.swift in Sources */,
+				6C416A82232F85ED00959F91 /* MBProgressHUD.m in Sources */,
 				6C12AAD922DEBAF000D3B6F5 /* UpdateVersionModel.swift in Sources */,
+				6C416A7B232F6DEB00959F91 /* ZCMessageHandlerTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THMCK32S84;
 				INFOPLIST_FILE = Tibet/Info.plist;
@@ -615,6 +651,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tibet/Macro/Tibet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -626,6 +664,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THMCK32S84;
 				INFOPLIST_FILE = Tibet/Info.plist;
@@ -636,6 +675,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tibet/Macro/Tibet-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

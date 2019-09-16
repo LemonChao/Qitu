@@ -22,6 +22,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>奇途国际需要您的同意,才能访问相册</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允许奇途国际保存图片到相册</string>
+	<key>NSCameraUsageDescription</key>
+	<string>奇途国际需要您的同意,才能访问相机</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

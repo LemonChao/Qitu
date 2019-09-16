@@ -11,7 +11,7 @@ import Foundation
 #if DEBUG
 let AppBaseUrl = "http://xoj.rzl8y.com"
 //let WebBaseUrl = "http://192.168.0.222:8080/#/"
-let WebBaseUrl = "http://xoj.rzl8y.com/web"
+let WebBaseUrl = "http://192.168.0.169:8888/#/"
 
 #else
 let AppBaseUrl = "http://xoj.rzl8y.com"
