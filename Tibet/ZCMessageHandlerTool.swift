@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import Kingfisher
 
 class ZCMessageHandlerTool: NSObject {
 
@@ -19,10 +20,22 @@ class ZCMessageHandlerTool: NSObject {
     }
     
     /// 保存网络图片
-    class func saveWebImageTpLibrary(_ webView: WKWebView, imageUrl url: URL) {
+    class func saveWebImageTpLibrary(_ webView: WKWebView, imageUrl url: URL?) {
+        guard url != nil else { return }
         
+        MBProgressHUD.showActivityText("正在保存")
+        ImageDownloader.default.downloadImage(with: url!, retrieveImageTask: nil, options: nil, progressBlock: { (receivedSize, totalSize) in
+            
+            
+        }) { (image, error, url, _) in
+            
+            if let err = error {
+                MBProgressHUD.showBottomText(err.localizedDescription)
+            }else {
+                UIImageWriteToSavedPhotosAlbum(image!, self, #selector(image(_:didFinishSavingWith:contextInfo:)), nil)
+            }
+        }
     }
-    
     
     /// 保存图片的结果回调
     @objc class func image(_ image: UIImage, didFinishSavingWith error: Error?, contextInfo info: Any) {
@@ -30,10 +43,9 @@ class ZCMessageHandlerTool: NSObject {
         if let err = error { //failed
             MBProgressHUD.showBottomText(err.localizedDescription)
         }else { // success
-            MBProgressHUD.showBottomText("保存成功")
+            MBProgressHUD.showCheckMark(withText: "保存成功")
         }
     }
-    
     
     
 }

@@ -9,15 +9,15 @@
 import Foundation
 
 #if DEBUG
-let AppBaseUrl = "http://xoj.rzl8y.com"
-//let WebBaseUrl = "http://192.168.0.222:8080/#/"
-let WebBaseUrl = "http://192.168.0.169:8888/#/"
+let AppBaseUrl = "http://qituapi-test.antnestintelligence.cc"
+//let WebBaseUrl = "http://192.168.0.169:8888/#/"
+let WebBaseUrl = "http://qituh5-test.antnestintelligence.cc/#/"
 
 #else
-let AppBaseUrl = "http://xoj.rzl8y.com"
-let WebBaseUrl = "http://xoj.rzl8y.com/web"
+let AppBaseUrl = "https://api.qituguoji.xyz"
+let WebBaseUrl = "https://h5.qituguoji.xyz"
 
 #endif
 
-let updateVersion = AppBaseUrl + "/api/version/getVersion"
+let updateVersion = AppBaseUrl + "/api/systeam/version"
 

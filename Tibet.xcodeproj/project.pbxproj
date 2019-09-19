@@ -155,14 +155,14 @@
 		6C26906B22DD7D77001AB783 /* Tibet */ = {
 			isa = PBXGroup;
 			children = (
-				6C416A7E232F859F00959F91 /* Toos(项目使用) */,
-				6C416A7D232F858600959F91 /* Vender */,
 				6C26906C22DD7D77001AB783 /* AppDelegate.swift */,
 				6C12AAD422DEB50B00D3B6F5 /* WkwebViewController.swift */,
 				6C416A7A232F6DEB00959F91 /* ZCMessageHandlerTool.swift */,
 				6C12AAD622DEB7D900D3B6F5 /* ZCUpdateAlert.swift */,
 				6C12AAD822DEBAF000D3B6F5 /* UpdateVersionModel.swift */,
 				6C12AAE022DEC73900D3B6F5 /* UIColor+WUIKit.swift */,
+				6C416A7E232F859F00959F91 /* Toos(项目使用) */,
+				6C416A7D232F858600959F91 /* Vender */,
 				6C0AAD4722E2CF8500DAEB3F /* Macro */,
 				6C26907022DD7D77001AB783 /* Main.storyboard */,
 				6C26907622DD7D78001AB783 /* Assets.xcassets */,
@@ -430,6 +430,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Tibet/Pods-Tibet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -438,6 +439,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -642,14 +644,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = THMCK32S84;
+				DEVELOPMENT_TEAM = 5PUNUXX6F8;
 				INFOPLIST_FILE = Tibet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qituguoji.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tibet/Macro/Tibet-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -666,14 +668,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = THMCK32S84;
+				DEVELOPMENT_TEAM = 5PUNUXX6F8;
 				INFOPLIST_FILE = Tibet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leyukeji.TibetShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qituguoji.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tibet/Macro/Tibet-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

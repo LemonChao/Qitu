@@ -43,7 +43,7 @@ class ZCUpdateAlert: UIView {
     lazy var updateButton: UIButton = {
         let button = UIButton.init(type: UIButton.ButtonType.custom)
         button.setTitle("立即更新", for: UIControl.State.normal)
-        button.backgroundColor = HexColor("#CA1400")
+        button.backgroundColor = HexColor("#bd2efc")
         button.layer.cornerRadius = 2
         button.addTarget(self, action: #selector(updateButtonAction), for: .touchUpInside)
         return button

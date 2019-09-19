@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>西藏锦绣</string>
+	<string>奇途无界</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,17 +22,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>奇途国际需要您的同意,才能访问相册</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>是否允许奇途国际保存图片到相册</string>
-	<key>NSCameraUsageDescription</key>
-	<string>奇途国际需要您的同意,才能访问相机</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>奇途国际需要您的同意,才能访问相机</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允许奇途国际保存图片到相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>奇途国际需要您的同意,才能访问相册</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
